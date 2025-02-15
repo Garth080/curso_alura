@@ -58,7 +58,7 @@ function generarNumeroSecreto() {
   }
 function condicionesIniciales() {
   asignarTextoElemento("h1", "juego del tumero secreto");
-  asignarTextoElemento("p",`indicame un número del 1 y el ${numeroMaximo} al  por favor`)
+  asignarTextoElemento("p",`indicame un número del 1 al ${numeroMaximo} por favor`)
   numeroSecreto = generarNumeroSecreto();
   intentos = 1;
 }   
